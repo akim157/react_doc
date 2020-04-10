@@ -2,6 +2,11 @@ import React from 'react';
 import Table from './Table';
 import Form from './Form';
 
+import NameForm from "./NameForm";
+import EssayForm from "./EssayForm";
+import FlavorForm from "./FlavorForm";
+import Reservation from "./Reservation";
+
 class App extends React.Component {
     state = {
         characters: [],
@@ -30,6 +35,10 @@ class App extends React.Component {
                     removeCharacter={ this.removeCharacter }
                 />
                 <Form handleSubmit={this.handleSubmit} />
+                <NameForm />
+                <EssayForm />
+                <FlavorForm />
+                <Reservation />
             </div>
         );
     }
