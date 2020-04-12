@@ -1,11 +1,17 @@
 import React from 'react';
 import Table from './Table';
-import Form from './Form';
+import Form from './forms/Form';
 
-import NameForm from "./NameForm";
-import EssayForm from "./EssayForm";
-import FlavorForm from "./FlavorForm";
-import Reservation from "./Reservation";
+import NameForm from "./forms/NameForm";
+import EssayForm from "./forms/EssayForm";
+import FlavorForm from "./forms/FlavorForm";
+import Reservation from "./forms/Reservation";
+
+import Calculator from './uplift/Calculator';
+
+import WelcomeDialog from './dialog/WelcomeDialog';
+
+import FilterableProductTable from './filter_price/FilterableProductTable';
 
 class App extends React.Component {
     state = {
@@ -39,6 +45,9 @@ class App extends React.Component {
                 <EssayForm />
                 <FlavorForm />
                 <Reservation />
+                <Calculator />
+                <WelcomeDialog />
+                <FilterableProductTable />
             </div>
         );
     }
