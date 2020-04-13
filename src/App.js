@@ -41,13 +41,13 @@ class App extends React.Component {
                     removeCharacter={ this.removeCharacter }
                 />
                 <Form handleSubmit={this.handleSubmit} />
-                <NameForm />
-                <EssayForm />
-                <FlavorForm />
-                <Reservation />
-                <Calculator />
-                <WelcomeDialog />
-                <FilterableProductTable />
+                {/*<NameForm />*/}
+                {/*<EssayForm />*/}
+                {/*<FlavorForm />*/}
+                {/*<Reservation />*/}
+                {/*<Calculator />*/}
+                {/*<WelcomeDialog />*/}
+                {/*<FilterableProductTable />*/}
             </div>
         );
     }
